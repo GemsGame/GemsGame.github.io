@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+
+    background-color:black;
+    color:white;
+    text-align: center;
+
+}
+
+.container {
+    display:flex;
+   flex-wrap: wrap;
+    flex-direction: row;
+     align-items: stretch;
+      justify-content: center;
+}
+
+.row {
+    margin: 10px;
+   background-color: white;
+   justify-content: center;
+  align-items: stretch;
+    width: 280px;
+    height: 550px;
+    border: 1px solid white;
+    border-radius: 15px;
+opacity: 0.7;
+
+}
+
+.row:hover {
+    margin: 10px;
+   background-color: white;
+   justify-content: center;
+  align-items: stretch;
+    width: 280px;
+    height: 550px;
+    border: 1px solid white;
+    border-radius: 15px;
+     transition: 0.5s linear;
+opacity: 1;
+    cursor: pointer;
+}
+
+.img {
+display:flex;
+ justify-content: center;
+width: 100%;
+    height: 60%;
+}
+
+.img:hover {
+display:flex;
+ justify-content: center;
+width: 100%;
+    height: 50%;
+    transition: 0.5s linear;
+}
+
+.title {
+    color: black;
+    position: relative;
+    bottom: 40%;
+    margin: 10px;
+    color:cyan;
+    font-size: 18px;
+font-family: 'Anton', sans-serif;
+    height: 100px;
+    text-decoration: underline;
+}
+
+.description {
+    color: black;
+  position: absolute;
+
+     font-size: 14px;
+    width: 280px;
+    height: 70px;
+    display: block;
+     font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.autor {
+      color: black;
+  position: relative;
+    margin: 5px;
+     font-size: 14px;
+    width: 280px;
+    display: block;
+
+                bottom: -12%;
+    left: 10%;
+}
+
+.data {
+    color: black;
+  position: relative;
+    margin: 5px;
+     font-size: 14px;
+    width: 280px;
+    display: block;
+        bottom: 16%;
+    left: 10%;
+}
+
+.view {
+    color: black;
+  position: relative;
+    margin: 2px;
+     font-size: 14px;
+    width: 280px;
+    display: block;
+    bottom: 22%;
+    left: 10%;
+    font-size: 32px;
+}
+
+.viewimg {
+  width: 40px;
+    height: 40px;
+ background-image: url(../img/visibility.svg);
+  position: relative;
+    bottom: 15%;
+    left: 15%;
+}
+.dataimg {
+  width: 40px;
+    height: 40px;
+ background-image: url(../img/calendar.svg);
+  position: relative;
+       bottom: 10%;
+    left: 15%;
+}
+
+.autorimg {
+  width: 40px;
+    height: 40px;
+ background-image: url(../img/boy.svg);
+  position: relative;
+       bottom: 23%;
+    left: 15%;
+}
+
+.pages {
+    margin:5px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+       justify-content: center;
+        align-items: center;
+    align-content: center;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    font-size:30px;
+    cursor: pointer;
+
+}
+
+.pages:hover {
+     margin:5px;
+       width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 20px;
+       justify-content: center;
+        align-items: center;
+    align-content: center;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    font-size:30px;
+ transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.textinput {
+    margin-top: 10px;
+        font-size: 1em;
+    text-align: center;
+    height: 45px;
+    width: 30%;
+    font-family: 'Russo One', sans-serif;
+    opacity: 1;
+}
+.sendbutton {
+        margin-top: 10px;
+    background-color: yellow;
+    font-size: 1em;
+    height: 49px;
+    width: 15%;
+    border: 0px;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+        cursor: pointer;
+}
+.sendbutton:hover {
+        margin-top: 10px;
+    background-color: white;
+    font-size: 1em;
+    height: 49px;
+    width: 15%;
+    border: 0px;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+        cursor: pointer;
+    transition: 1s linear;
+}
